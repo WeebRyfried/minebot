@@ -17,7 +17,7 @@ Starts bot
 ```markdown
 Stops bot
 ```
-//a -a;; -start
+//a -all -start
 ```markdown
 Starts "A" function
 ```
