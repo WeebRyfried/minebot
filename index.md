@@ -1,6 +1,6 @@
 ## MineBot™ Commands
 
-MineBot is a shitty Discord Bot made in Lua. 
+MineBot is a shittyᶜᶦᵗᵃᵗᶦᵒⁿ ⁿᵉᵉᵈᵉᵈ Discord Bot made in Lua. 
 Default prefix is //
 
 ### Commands
