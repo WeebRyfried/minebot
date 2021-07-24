@@ -121,6 +121,10 @@ Posts Chuck Norris facts
 Argument must be provided in Continent/City
 ```
 
+//pray, //prayertime, //prayertimes, //prayer, //pt [City:Country]
+```markdown
+Islamic prayer times shown in local time, argument must be provided in City:Country for example; "Kuala Lumpur:Malaysia" or "Doha:Qatar"
+```
 ##Conversions
 
 //to[Language]
@@ -147,6 +151,24 @@ Specifically Arabic to English translate function
 ```markdown
 Runs arithmetic calculations
 ```
+## Experimental/Beta
+Highly unstable
 
+//compress [attachments[video]]
+```markdown
+Compresses video with metric quality 52
+```
+//compressurl [direct media url]
+```markdown
+Compresses video via url with metric quality 52
+```
+//ultracompressurl [direct media url]
+```markdown
+Compresses video via url using Discord 240p preset by Handbrake
+```
+//edit [attachments[video]] [commands seperated by comma ","]
+```markdown
+Edit video using EVB API by PigeonBurger, check for a list of commands at https://pigeonburger.xyz/editvideobot/commands/
+```
 
-### Command descriptions are provided by Hinagi#1984, post a picture of your cock to him to thank him
+### Most command descriptions are provided by Hinagi#1984, post a picture of your cock to him to thank him
