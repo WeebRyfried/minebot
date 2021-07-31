@@ -127,10 +127,19 @@ Islamic prayer times shown in local time, argument must be provided in City:Coun
 ```
 ##Conversions
 
-//to[Language]
+//to[Language] -- OLD
 ```markdown
 Translate Utility; Translates any language input to the argument selection. Replace [Language] argument with valid options; CN, JAP, EN, ES, MY, IT, AR, DE, FI
 ```
+
+//to [Language], //to "[SOURCE LANGUAGE]" [LANGUAGE] [the thing you want to translate]-- NEW V2
+```markdown
+Usage: //to (2 letter language code, ms, en, etc) (stuff you want to translate) or //to "(specify source language)" (2 letter language code thing) (stuff you want to translate) 
+ for example: //to en Saya suka air mani 
+ or //to "ms" en saya suka air mani
+```
+
+
 //to[Temperature Unit]
 ```markdown
 Temperature Conversion Utility; converts from Standard to American and vice versa. Replace [Temperature Unit] with valid options; C, F
